@@ -336,6 +336,14 @@ awful.rules.rules = {
         properties = {
             floating = true,
     }   },
+    {   rule_any = { class = { "XConsole" } },
+        properties = {
+            floating = true,
+    }   },
+    {   rule_any = { class = { "mpv" } },
+        properties = {
+            floating = true,
+    }   },
 }
 
 
